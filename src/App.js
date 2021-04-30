@@ -46,7 +46,7 @@ const App = ({}) => {
       <GlobalStyles />
       <div style={{width: '100vw', height: '100vh', overflow: 'hidden', overflowY: 'scroll'}}>
         <Header />
-        <div style={{paddingTop: 100}}>
+        <div style={{paddingTop: 120}}>
           <Category no={no} setNo={setNo} />
         </div>
       </div>

@@ -11,16 +11,19 @@ export default createGlobalStyle`
         font-family: 'Geometos';
         font-style: normal;
         font-weight: normal;
-        src: local('Geometos'), url('./Geometos.ttf') format('ttf');
+        src: local('Geometos'), url('./Geometos.ttf') format('ttf'),
+        url('./Geometos.ttf')  format('truetype')
     }
     @font-face {
         font-family: 'telegrafico';
         font-style: normal;
         font-weight: normal;
-        src: local('telegrafico'), url('./telegrafico.ttf') format('ttf');
+        src: local('Telegrafico'), url('./telegrafico.ttf') format('ttf'),
+        url('./Geometos.ttf')  format('truetype')
     }
     body {
         font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, 'telegrafico';
+        text-rendering:optimizeLegibility;
     }
     a {
         text-decoration: none;

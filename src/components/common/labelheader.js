@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { Flex, Row, Text } from '../base';
 import styled from 'styled-components';
-import Logo from '../../icons/logo';
+import {LogoBlackImage} from '../../icons/logo';
 import { Down, Left } from '../../icons/common';
 
 const HeaderBox = styled(Row)`
@@ -19,11 +19,12 @@ export const LabelHeader = ({title, setOn}) => {
                 <a onClick={() => setOn(0)}>
                     <Row align="center" to={"cursor"}>
                         <Left height={17} />
-                        <Logo height={40} width={100} fill={'black'} />
+                        <div style={{marginLeft: 10}} />
+                        <LogoBlackImage height={28} width={74.9} />
                     </Row>
                 </a>
             </Flex>
-            <Flex margin="margin-top: 10px; margin-right: 50px;">
+            <Flex margin="margin-top: 10px; margin-right: 40px;">
                 <Text size={30}>{title} LABEL</Text>
             </Flex>
             <Row align="center" to={"cursor"}>

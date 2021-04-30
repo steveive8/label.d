@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {Col, Row, Text, Flex} from './base';
-import Logo from '../icons/logo';
+import {LogoImage} from '../icons/logo';
 
 
 export const Footer = ({}) => {
@@ -8,7 +8,7 @@ export const Footer = ({}) => {
         <Flex bg="black" width="100%" padding="padding: 50px;" height="200px" margin="margin-top: 80px;">
             <Row justify="space-between" width="100%">
                 <Flex flex={2}>
-                    <Logo height={50} />
+                    <LogoImage height={40} width={107} />
                 </Flex>
                 <Row justify="space-between" flex={2}>
                     <Col flex={1} style={{textAlign: 'right', paddingRight: 30}}>

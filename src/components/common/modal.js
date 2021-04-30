@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {Row, Col, Flex, Text, Image} from '../base';
 import man from '../../imgs/man1.jpg';
-import Logo from '../../icons/logo';
+import {LogoImage} from '../../icons/logo';
 
 //, backdropFilter: 'blur(0px)'
 
@@ -30,8 +30,8 @@ export const Modal = ({modal, setModal}) => {
             <Row position="fixed" zIndex={11} width="60%" height="70%" bg="white">
                 <Flex flex={1}>
                     <Image of="cover" width="100%" height="100%" src={man} />
-                    <div style={{position: 'absolute', bottom: 10, left: 0}}>
-                        <Logo height={40} width={100} />
+                    <div style={{position: 'absolute', bottom: 15, left: 15}}>
+                        <LogoImage height={30} width={80.25} />
                     </div>
                 </Flex>
                 <Col flex={2}>
