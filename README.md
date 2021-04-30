@@ -1,5 +1,6 @@
 # LABEL.D
+Fashion curation and generating system using Deep Learning..
 
-## Clothing Detection with Object detection
+## Clothing Detection with Object Detection
 ## Generate user's style with GAN
-## Recommendation System to user's fit
+## Recommendation System for user's fit
