@@ -2,12 +2,12 @@ import React from 'react';
 import LabelHeader from '../common/labelheader';
 import Window from '../common/window';
 
-export const Man = ({setOn}) => {
+export const Man = ({modal, setModal, setOn}) => {
     return (
-        <>
+        <div>
             <LabelHeader setOn={setOn} title={"man"} />
-            <Window />
-        </>
+            <Window setModal={setModal} />
+        </div>
     )
 };
 

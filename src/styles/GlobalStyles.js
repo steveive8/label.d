@@ -13,6 +13,12 @@ export default createGlobalStyle`
         font-weight: normal;
         src: local('Geometos'), url('./Geometos.ttf') format('ttf');
     }
+    @font-face {
+        font-family: 'telegrafico';
+        font-style: normal;
+        font-weight: normal;
+        src: local('telegrafico'), url('./telegrafico.ttf') format('ttf');
+    }
     body {
         font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, 'telegrafico';
     }

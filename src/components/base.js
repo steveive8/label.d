@@ -99,10 +99,10 @@ export const BoxWrap = styled(Flex)`
     justify-content: center;
 `;
 
-export const Box = ({margin, text, size, src, flex}) => {
+export const Box = ({setModal, margin, text, size, src, flex}) => {
     return (
         <Col align="center" flex={flex}>
-            <BoxWrap margin={margin} size={size}>
+            <BoxWrap onClick={() => setModal ? setModal(true) : null} margin={margin} size={size}>
                 <Image of="cover" width="100%" src={src} />
             </BoxWrap>
             {text && <Text size="20" style={{fontFamily: 'Geometos'}}>{text}</Text>}
