@@ -23,7 +23,7 @@ export const Items = ({}) => {
 
 export const Item = ({logo, item, text, text2}) => {
     return (
-        <Col align="center" justify="space-between" height="100%" to="cursor" width="30%" margin="margin: 10px;">
+        <Col align="center" justify="space-between" height="100%" to="cursor" margin="margin: 10px;">
             <Flex flex={1} height="12.8%" justify="center">
                 <Image of="contain" src={logo} width="100%" height="100%" />
             </Flex>
