@@ -6,7 +6,7 @@ import styled from 'styled-components';
 const Box = styled(Row)`
     background-color: black;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     padding: 25px 30px;
     top: 0;
     z-index: 10;

@@ -5,7 +5,7 @@ import {LogoImage} from '../icons/logo';
 
 export const Footer = ({}) => {
     return(
-        <Flex bg="black" width="100%" padding="padding: 50px;" height="200px" margin="margin-top: 80px;">
+        <Flex bg="black" width="100vw" padding="padding: 50px;" height="200px" margin="margin-top: 80px;">
             <Row justify="space-between" width="100%">
                 <Flex flex={2}>
                     <LogoImage height={40} width={107} />
