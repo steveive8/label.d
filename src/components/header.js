@@ -18,7 +18,7 @@ const Box = styled(Row)`
 export const Header = ({}) => {
     return (
         <Box>
-            <a href='/'>
+            <a href='/label.d'>
                 <LogoImage height={40} width={107} />
             </a>
             <Row flex={1} justify="flex-end" padding="padding-right: 10px;">

@@ -6,7 +6,7 @@ import Woman from './components/woman';
 import Unisex from './components/unisex';
 import Main from './components/main';
 import { Footer } from './components/footer';
-import Modal from './components/common/modal'
+import Modal from './components/modal'
 
 const Category = ({no, setNo}) => {
   const [zIndex, setzIndex] = useState(no);

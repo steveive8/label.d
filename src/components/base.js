@@ -99,6 +99,35 @@ export const BoxWrap = styled(Flex)`
     justify-content: center;
 `;
 
+export const Circle = styled.div`
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+`;
+
+export const PosWrap = styled(Flex)`
+    top: ${props => props.t}%;
+    left: ${props => props.l}%;
+    cursor: pointer;
+    :hover {
+        opacity: 0.85;
+    };
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    position: relative;
+`;
+
+export const Pos = ({t, l}) => {
+    return (
+        <PosWrap t={t} l={l}>
+            <Circle />
+        </PosWrap>
+    )
+}
+
 export const Box = ({setModal, margin, text, size, src, flex}) => {
     return (
         <Col align="center" flex={flex}>
