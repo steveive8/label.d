@@ -7,6 +7,7 @@ import Unisex from './components/unisex';
 import Main from './components/main';
 import { Footer } from './components/footer';
 import Modal from './components/modal'
+import Customize from './components/customize';
 
 const Category = ({no, setNo}) => {
   const [zIndex, setzIndex] = useState(no);
@@ -47,6 +48,7 @@ const App = ({}) => {
       <div style={{width: '100vw', height: '100vh', overflow: 'hidden', overflowY: 'scroll'}}>
         <Header />
         <div style={{paddingTop: 120}}>
+          <Customize />
           <Category no={no} setNo={setNo} />
         </div>
       </div>
