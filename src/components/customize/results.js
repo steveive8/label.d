@@ -1,11 +1,11 @@
 import React, {useState} from 'react'
 import {Col, Row, Flex, Text} from '../base';
 
-export const Results = ({}) => {
+export const Results = ({index}) => {
     return (
-        <div style={{width: '100vw', height: '100vh', position: 'absolute'}}>
+        <Flex style={{width: '100vw', height: '100vh', position: 'fixed', bottom: index === 2 ? 0 : '100%', opacity: index === 2 ? 1 :0, transition: 'all 1s'}}>
             
-        </div>
+        </Flex>
     )
 }
 
